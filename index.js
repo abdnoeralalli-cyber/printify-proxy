@@ -28,4 +28,4 @@ app.get('/products/:shopId', async (req, res) => {
   res.json(data);
 });
 
-app.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT || 8080);
